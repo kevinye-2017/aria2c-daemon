@@ -16,7 +16,8 @@ enable-http-pipelining=true
 enable-rpc=true
 rpc-listen-all=true
 
-2. /usr/lib/systemd/system/aria2.service 
+2. /usr/lib/systemd/system/aria2.service  
+
 [Unit]
 Description=Aria2c download manager
 Requires=network.target
