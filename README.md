@@ -35,5 +35,5 @@ Restart=on-failure
 WantedBy=multi-user.target
 
 
- systemctl enable aria2
- systemctl start aria2
+systemctl enable aria2
+systemctl start aria2
